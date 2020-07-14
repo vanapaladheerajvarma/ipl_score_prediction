@@ -1,46 +1,28 @@
-# ipl_score_prediction
+# IPL SCORE PREDICTION
 
-# Music-Generation 
-
-Generating new Music using Deep Learning.Here we need to create a Deep Learning Model which can generate "New Music" 
+Predicting The Score of IPL Teams With the Necessary Parameters 
 
 
 ## Understanding Requirement
 
-Here we need to build a Deep Learning Model so that  it can find patterns in the music that humans and should generate 'New Music" with
+Here we need to Bulid Machine Learning model such that given the Venue or Stadium where the Game is Played between Two Teams and also the we need runs,wickets,overs,
 
-these types of patterns.
-
-In a nutshell Music is a sequence of musical components/events
+runs_last_5	and wickets_last_5 as an input features to the model.So that this model will predict the **TOTAL** Score of the given Batting Team 
 
 
-
- ## Data Agoisition 
+ ## Data Agoisition && Data Preparation
  
- Generally music is represented in many formats like sheet-music,abc-notation,MIDI,mp3 files Etc.we can take any type of notation and
- 
- create our model.so I am taking abc notation for generation of model.
- 
-### ABC NOTATION
-
-It consists of 2 parts
-
-* 'Meta Data'
-
-* 'Music'{sequence of characters where character represen music}
-
-so we are downloading dataset in abc notation
- 
- 
- ## Data Preparation
- 
- Here all are characters so we converting each of character to unique number. 
+ Fortunately all the Dat
  
  
  
  ## Exploratory Data Analysis
  
- No need of EDA
+ Here we want to mainly Analyse Two Things
+ 
+ 1)**Number of Games Played in Each Venue**
+ 
+ 2)**Number of Games Played by Each Team**
  
  ## Modeling
  
