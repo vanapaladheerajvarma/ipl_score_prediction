@@ -26,23 +26,7 @@ runs_last_5	and wickets_last_5 as an input features to the model.So that this mo
  
  ## Modeling
  
-  Here main point is it is Character data and Sequence of data is very important.so it is a Time series Problem
   
-  i.e for Character data we prefer Neural Netorks {ANN,CNN,Simple RNN,LSTM(Char RNN) etc}
-  
-  also Sequence of data is very important and length of input is not same {Simple RNN,LSTM(Char RNN) etc}
-        
-  and also there will be both long and short term dependencies {LSTM(Char RNN)}
-        
-  So we are using LSTM called Char RNN
-  
-  ### Char-RNN
-  
-  * In Char-RNN  if input is c(i) means the output is c(i+1) and this c(i+1) is again input to RNN and output is c(i+2) and it goes on
-  
-  * Many to Many RNN of same Length.so it has one o/p corresponding to each input
-  
-  * It may have more than one hidden Layer
  
  ## Modeling
 
