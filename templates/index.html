@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FIRST INNINGS SCORE PREDICTOR</title>
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+  <body style="background-image: url({{ url_for('static', filename='ipl6.jpg') }}">
+      <h1><center>FIRST INNINGS SCORE PREDICTOR</center></h1>
+      <div class = "register">
+        <h2>INDIAN PREMIER LEAGUE</h2>
+      <form method="POST" id="register" action="/result">
+
+
+        <label> Select Venue: </label><br>
+           <select class="form-input align-center" id="ID3" name="venue">
+                      <option value="none">--- Select a Venue ---</option>
+                        <option value="Barabati Stadium">Barabati Stadium</option>
+                        <option value="Brabourne Stadium">Brabourne Stadium</option>
+                        <option value="Buffalo Park">Buffalo Park</option>
+                        <option value="De Beers Diamond Oval">De Beers Diamond Oval</option>
+                        <option value="Dr DY Patil Sports Academy">Dr DY Patil Sports Academy</option>
+                        <option value="Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium">Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium</option>
+                        <option value="Dubai International Cricket Stadium">Dubai International Cricket Stadium</option>
+                        <option value="Eden Gardens">Eden Gardens</option>
+                        <option value="Feroz Shah Kotla">Feroz Shah Kotla</option>
+                        <option value="Himachal Pradesh Cricket Association Stadium">Himachal Pradesh Cricket Association Stadium</option>
+                        <option value="Holkar Cricket Stadium">Holkar Cricket Stadium</option>
+                        <option value="JSCA International Stadium Complex">JSCA International Stadium Complex</option>
+                        <option value="Kingsmead">Kingsmead</option>
+                        <option value="M Chinnaswamy Stadium">M Chinnaswamy Stadium</option>
+                        <option value="MA Chidambaram Stadium, Chepauk">MA Chidambaram Stadium, Chepauk</option>
+                        <option value="Maharashtra Cricket Association Stadium">Maharashtra Cricket Association Stadium</option>
+                        <option value="New Wanderers Stadium">New Wanderers Stadium</option>
+                        <option value="Newlands">Newlands</option>
+                        <option value="OUTsurance Oval">OUTsurance Oval</option>
+                        <option value="Punjab Cricket Association IS Bindra Stadium, Mohali">Punjab Cricket Association IS Bindra Stadium, Mohali</option>
+                        <option value="Punjab Cricket Association Stadium, Mohali">Punjab Cricket Association Stadium, Mohali</option>
+                        <option value="Rajiv Gandhi International Stadium, Uppal">Rajiv Gandhi International Stadium, Uppal</option>
+                        <option value="Sardar Patel Stadium, Motera">Sardar Patel Stadium, Motera</option>
+                        <option value="Sawai Mansingh Stadium">Sawai Mansingh Stadium</option>
+                        <option value="Shaheed Veer Narayan Singh International Stadium">Shaheed Veer Narayan Singh International Stadium</option>
+                        <option value="Sharjah Cricket Stadium">Sharjah Cricket Stadium</option>
+                        <option value="Sheikh Zayed Stadium">Sheikh Zayed Stadium</option>
+                        <option value="St George's Park">St George's Park</option>
+                        <option value="Subrata Roy Sahara Stadium">Subrata Roy Sahara Stadium</option>
+                        <option value="SuperSport Park">SuperSport Park</option>
+                        <option value="Wankhede Stadium">Wankhede Stadium</option>
+                    </select><br><br>
+
+
+
+
+
+        
+          <label> Select Batting Team: </label><br>
+           <select class="form-input align-center" id="ID1" name="team1">
+            <option value="none">--- Select a Batting team ---</option>
+                        <option value="Mumbai Indians">Mumbai Indians</option>
+                        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                        <option value="Chennai Super Kings">Chennai Super Kings</option>
+                        <option value="Rajasthan Royals">Rajasthan Royals</option>
+                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                    </select><br><br>
+
+          <label>Select Bowling Team: </label><br>
+        <select class="form-input align-center" id="ID2" name="team2">
+                        <option value="none">--- Select a Bowling team ---</option>
+                        <option value="Mumbai Indians">Mumbai Indians</option>
+                        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                        <option value="Chennai Super Kings">Chennai Super Kings</option>
+                        <option value="Rajasthan Royals">Rajasthan Royals</option>
+                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                    </select><br><br>
+
+
+          
+          <input type="integer" name="overs" id="name"
+          placeholder="Overs Completed(>=5.0)"><br><br>
+
+
+          
+          <input type="number" min="0"  name="runs" id="name"
+          placeholder="Runs Scored(Example 50)"><br><br>
+
+          
+          <input type="number" min="0" max="10" name="wickets" id="name"
+          placeholder="Wickets Lost(<=10)"><br><br>
+
+
+          <input type="number" min="0" name="prev_runs" id="name"
+          placeholder="Runs Scored in previous 5 overs"><br><br>
+
+          <input type="number" min="0" max="10" name="prev_wickets" id="name"
+          placeholder="Wickets Lost in Last 5 overs(<=10)"><br><br>
+
+          
+          <input type="submit" value="Submit" id ="sub">
+      </form>
+      </div>
+  </body>
+</html>
