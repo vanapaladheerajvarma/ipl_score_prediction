@@ -173,3 +173,17 @@ SO we can see that Ridge Regression is the best Model
 - **Train Data  RMSE: 17.23093225875349  Test Data  RMSE: 16.16715706425386**
 
  
+##Deployment 
+
+Deployed in Heroku Platform
+
+[`IPL FIRST INNINGS SCORE PREDICTION App`](https://scorepredictionapi.herokuapp.com/)
+
+![Image](img/111.png)
+
+
+
+
+
+
+
