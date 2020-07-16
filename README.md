@@ -1,6 +1,6 @@
 # IPL SCORE PREDICTION
 
-![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg) ![Flask](https://img.shields.io/badge/Library-Flask-orange.svg)
+![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Numpy](https://img.shields.io/badge/Library-Numpy-red.svg) ![Pandas](https://img.shields.io/badge/Library-Pandas-orange.svg) ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-blue.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-gray.svg) ![Flask](https://img.shields.io/badge/Library-Flask-orange.svg)
 
 Predicting The Score of IPL Teams With the Necessary Parameters 
 
