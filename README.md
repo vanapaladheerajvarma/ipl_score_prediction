@@ -46,6 +46,13 @@ Here we need to Bulid Machine Learning model such that our model will predict th
 |__runs_last_5__|__Runs Scored in Last Five Overs Until Present Ball of Over__|__Int__|
 |__wickets_last_5__|__Wickets Lost in Last Five Overs Until Present Ball of Over__|__Int(<=10)__|
 |__total__|__Total Runs Scored in the Match__|__Float(0.1-19.6)__|
+
+Here mid is not needed 
+
+|__DEPENDENT or INPUT FEATURES__|__date,venue,bat_team,bowl_team,bowl_team,runs,wickets,overs,runs_last_5,wickets_last_5__|
+|-|-|
+|__INDEPENDENT FEATURES__|__total__|
+
  
  
  **ASSUMPTATIONS**
@@ -75,18 +82,18 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  
  But currently Deccan Chargers,Rising Pune Supergiant,Gujarat Lions and Kochi Tuskers Kerala  teams are not present in the ipl so let us remove records which contains these teams.During this process some venues which are home to these team are also being removed.So we are left with
  
- *Number of Teams=8
- *Number of Venue's=31
- *Number of Matches=437
+ * Number of Teams=8
+ * Number of Venue's=31
+ * Number of Matches=437
  
  
  Here Also Convert Categorical features to Numberical By One Hot Encoding
  
- -Venue= One Hot Encoded List of Size 31
+ - Venue= One Hot Encoded List of Size 31
  
- -Bowling team=One Hot Encoded List of Size 8
+ - Bowling team=One Hot Encoded List of Size 8
  
- -Batting team=One Hot Encoded List of Size 8
+  -Batting team=One Hot Encoded List of Size 8
  
  
  
@@ -105,13 +112,10 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  
  2)**Number of Games Played by Each Team**
  
- ![Image](img/teams.jpg)
+ ![Image](img/teams.jpg) 
+ 
  
  ## Modeling
  
   
  
- ## Modeling
-
- 
-  ## Evaluation
