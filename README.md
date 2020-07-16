@@ -1,6 +1,6 @@
 # IPL SCORE PREDICTION
 
-![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)
+![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Flask](https://img.shields.io/badge/Library-Flask-orange.svg)    ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg 
 
 Predicting The Score of IPL Teams With the Necessary Parameters 
 
