@@ -7,14 +7,43 @@ Predicting The Score of IPL Teams With the Necessary Parameters
 
 ## Understanding Requirement
 
-Here we need to Bulid Machine Learning model such that given the Venue or Stadium where the Game is Played between Two Teams and also the we need runs,wickets,overs,
-
-runs_last_5	and wickets_last_5 as an input features to the model.So that this model will predict the **TOTAL** Score of the given Batting Team 
+Here we need to Bulid Machine Learning model such that our model will predict the score of Batting Team or First Innings Score  
 
 
  ## Data Agoisition && Data Preparation
  
- Fortunately all the Dat
+ **Data Agoisition**
+ 
+ First we need Data to Our Model To Train.Here Fortunately Our[`DataSet`](https://www.kaggle.com/dineshchandthakur/ipl-dataset) is Present in Kaggle
+ 
+ **IPL DATSET Consists of all the matches(per bowl) which are played between 2013-2018**
+ 
+ **Data Prepration**
+ 
+ Here in our Dataset 
+ 
+ 
+ Number of Data Points=76014
+ Number of Features =11
+ Number of Missing Values=0
+ Number of Duplicates=0
+ 
+ **FEATURES**
+ -mid = Every Unique Match has Unique Mid  (Int)
+ -date = Date of Match  (Date)
+ -venue= Venue of Match (Categorical Data)
+ -bat_team=Batting Team of Match
+ -bowl_team = Bowling Team of Match
+ -runs  = Runs Scored on the Present Ball of Over
+ -wickets	=Wickets Lost on the Present Ball of Over
+ -overs = Present Ball of Over
+ -runs_last_5 = Runs Scored in Last Five Overs Until Present Ball of Over
+ -wickets_last_5=Wickets Lost in Last Five Overs Until Present Ball of Over
+ -total =Total Runs Score until Prsent Ball of Over
+ 
+ Here among all the Features 
+ 
+ 
  
  
  
