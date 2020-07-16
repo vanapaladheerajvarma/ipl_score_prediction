@@ -23,13 +23,13 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  Here in our Dataset 
  
  
- Number of Data Points=76014
+ - Number of Data Points=76014
  
- Number of Features =11
+ - Number of Features =11
  
- Number of Missing Values=0
+ - Number of Missing Values=0
  
- Number of Duplicates=0
+ - Number of Duplicates=0
  
  **FEATURES**
  
