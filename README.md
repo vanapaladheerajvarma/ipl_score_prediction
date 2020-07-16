@@ -93,7 +93,7 @@ Here mid is not needed
  
  - Bowling team=One Hot Encoded List of Size 8
  
-  -Batting team=One Hot Encoded List of Size 8
+ - Batting team=One Hot Encoded List of Size 8
  
  
  
