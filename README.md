@@ -139,5 +139,6 @@ Here mid is not needed
    
    - Gradient Boost Decision Trees 
  
-  
+**So by applying all these algorithms to the given data set.All these algorithms contains some Hyperparameters which need to initialized of some values and they can be any values and these values influence our Model performance (OVER-FIT OR BEST-FIT OR UNDER-FIT). so we need find best Hyperparmeters and they are found using GRIDSEARCH**
+
  
