@@ -48,24 +48,48 @@ Here we need to Bulid Machine Learning model such that our model will predict th
 |__total__|__Total Runs Scored in the Match__|__Float(0.1-19.6)__|
  
  
- -mid = Every Unique Match has Unique Mid  (Int)
+ **ASSUMPTATIONS**
  
- -date = Date of Match  (Date)
+ 1)Here since the  Features like runs_last_5 and wickets_last_5 will have value only if the overs >=5.0 .so lets us assume are going to predict score only when atleast 5
+ overs are completed in the Match.so remove records where overs<5.0
  
- -venue= Venue of Match (Categorical Data)
+ 2)Currently Dataset contains
+ -Number of Teams=13
+ -Number of Venue's=35
  
- -bat_team=Batting Team of Match (Categorical Data)
+ |__Teams__|
+ |-|
+|__Deccan Chargers__|
+|__Kings XI Punjab__|
+|__Rajasthan Royals__|
+|__Kochi Tuskers Kerala__|
+|__Pune Warriors__|
+|__Sunrisers Hyderabad__|
+|__Rising Pune Supergiants__|
+|__Gujarat Lions__|
+|__Mumbai Indians__|
+|__Royal Challengers Bangalore__|
+|__Chennai Super Kings__|
+|__Delhi Daredevils__|
+|__Kolkata Knight Riders__|
  
- -bowl_team = Bowling Team of Match (Categorical Data)
+ But currently Deccan Chargers,Rising Pune Supergiant,Gujarat Lions and Kochi Tuskers Kerala  teams are not present in the ipl so let us remove records which contains these teams.During this process some venues which are home to these team are also being removed.So we are left with
  
- -runs  = Runs Scored on the Present Ball of Over (Int)
- -wickets	=Wickets Lost on the Present Ball of Over
- -overs = Present Ball of Over
- -runs_last_5 = Runs Scored in Last Five Overs Until Present Ball of Over
- -wickets_last_5=Wickets Lost in Last Five Overs Until Present Ball of Over
- -total =Total Runs Score until Prsent Ball of Over
+ -Number of Teams=8
+ -Number of Venue's=31
+ -Number of Matches=437
  
- Here among all the Features 
+ 
+ Here Also Convert Categorical features to Numberical By One Hot Encoding
+ 
+ -Venue= One Hot Encoded List of Size 31
+ 
+ -Bowling team=One Hot Encoded List of Size 8
+ 
+ -Batting team=One Hot Encoded List of Size 8
+ 
+ 
+ 
  
  
  
