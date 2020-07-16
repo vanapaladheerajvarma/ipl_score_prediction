@@ -34,6 +34,7 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  **FEATURES**
  
  |__FEATURES__|__Description__|__Type__|
+ |-|-|-|
 |__mid__|__ __|__ __|
  
  
