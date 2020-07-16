@@ -124,12 +124,20 @@ Here mid is not needed
  In Machine Learning for Regression
  
  - **Linear Models**
- - - Linear Regression
+   - Linear Regression
  
- - - Ridge Regression
+   - Ridge Regression
+   
+   - Lasso Regression
+   
  
  - **Non Linear Models**
  
+   - Decision Tree
+   
+   - Random Forest
+   
+   - Gradient Boost Decision Trees 
  
   
  
