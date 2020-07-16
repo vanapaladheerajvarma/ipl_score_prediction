@@ -143,6 +143,12 @@ Here mid is not needed
 
 ## Evaluation
 
+**HERE IMPORTANT METRICS ARE MEAN ABSOLUTE ERROR (MSE)**
+
+**ALSO THERE ARE SOME METRICS LIKE MEAN SQUARED ERROR(MSE) AND ROOT MEAN SQUARED ERROR(RMSE)**
+
+**Here Lower these values better the Model**
+
 
 |__MODEL__|__Hyperparameters__|__Train Error(MAE)__|__Test Error(MAE)__|
 |-|-|-|-|
@@ -152,4 +158,18 @@ Here mid is not needed
 |__Decision Tree__|__'max_depth: 5 'min_samples_split': 10__|__9.528501__|__12.826956__|
 |__Random Forest	Regressor__|__'estimators': 10 'maxdepth': 2__|__23.194103__|__26.949964__|
 |__Gradient Boost Decision Trees Regressor__|__'estimators': 5 'maxdepth': 5__|__3.506031__|__29.701944__|
+
+
+SO we can see that Ridge Regression is the best Model
+- Train MAE and Test MAE is less which means it is quite accurate
+- Also Train MAE and Test MAE is quite similar which is model is neither OVERFITTING nor UNDERFITTING it is BEST_FIT
+
+**MODEL we are Choosing is Ridge Regression**
+
+- **Train Data  MAE: 12.840386338115271  Test Data  MAE : 12.20350802120017**
+
+- **Train Data  MSE: 296.9050265057517   Test Data  MSE: 261.3769675402535**
+
+- **Train Data  RMSE: 17.23093225875349  Test Data  RMSE: 16.16715706425386**
+
  
