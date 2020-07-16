@@ -35,7 +35,17 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  
  |__FEATURES__|__Description__|__Type__|
  |-|-|-|
-|__mid__|__ __|__ __|
+|__mid__|__Every Unique Match has Unique Mid__|__Int__|
+|__date__|__Date of Match__|__Date __|
+|__venue__|__Venue of Match__|__Categorical Data__|
+|__bat_team__|__Batting Team of Match__|__Categorical Data__|
+|__bowl_team__|__Bowling Team of Match__|__Categorical Data__|
+|__runs__|__Runs Scored until the Present Ball of Over__|__Int__|
+|__wickets__|__Wickets Lost on the Present Ball of Ove __|__Int(<=10)__|
+|__overs__|__Present Ball of Over__|__Float(0.1-19.6)__|
+|__runs_last_5__|__Runs Scored in Last Five Overs Until Present Ball of Over __|__Int__|
+|__wickets_last_5__|__Wickets Lost in Last Five Overs Until Present Ball of Over __|__Int(<=10) __|
+|__total__|__Total Runs Scored in the Match__|__Float(0.1-19.6) __|
  
  
  -mid = Every Unique Match has Unique Mid  (Int)
