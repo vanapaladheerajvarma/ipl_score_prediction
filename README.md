@@ -117,5 +117,19 @@ Here mid is not needed
  
  ## Modeling
  
+ Here all the independent and Dependent features are ready.These features are also preprocessed.Now we need to Choose a Model
+ 
+ This is a Regression Problem.Also Data is not Very Large hence we are restricting ourself to only **MACHINE LEARNING** and not **DEEP LEARNING**
+ 
+ In Machine Learning for Regression
+ 
+ - **Linear Models**
+ - - Linear Regression
+ 
+ - - Ridge Regression
+ 
+ - **Non Linear Models**
+ 
+ 
   
  
