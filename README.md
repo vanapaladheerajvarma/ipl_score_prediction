@@ -24,17 +24,30 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  
  
  Number of Data Points=76014
+ 
  Number of Features =11
+ 
  Number of Missing Values=0
+ 
  Number of Duplicates=0
  
  **FEATURES**
+ 
+ |__FEATURES__|__Description__|__Type__|
+|__mid__|__ __|__ __|
+ 
+ 
  -mid = Every Unique Match has Unique Mid  (Int)
+ 
  -date = Date of Match  (Date)
+ 
  -venue= Venue of Match (Categorical Data)
- -bat_team=Batting Team of Match
- -bowl_team = Bowling Team of Match
- -runs  = Runs Scored on the Present Ball of Over
+ 
+ -bat_team=Batting Team of Match (Categorical Data)
+ 
+ -bowl_team = Bowling Team of Match (Categorical Data)
+ 
+ -runs  = Runs Scored on the Present Ball of Over (Int)
  -wickets	=Wickets Lost on the Present Ball of Over
  -overs = Present Ball of Over
  -runs_last_5 = Runs Scored in Last Five Overs Until Present Ball of Over
