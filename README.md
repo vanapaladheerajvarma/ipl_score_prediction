@@ -75,9 +75,9 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  
  But currently Deccan Chargers,Rising Pune Supergiant,Gujarat Lions and Kochi Tuskers Kerala  teams are not present in the ipl so let us remove records which contains these teams.During this process some venues which are home to these team are also being removed.So we are left with
  
- -Number of Teams=8
- -Number of Venue's=31
- -Number of Matches=437
+ *Number of Teams=8
+ *Number of Venue's=31
+ *Number of Matches=437
  
  
  Here Also Convert Categorical features to Numberical By One Hot Encoding
@@ -101,7 +101,11 @@ Here we need to Bulid Machine Learning model such that our model will predict th
  
  1)**Number of Games Played in Each Venue**
  
+ ![Image](img/games.jpg)
+ 
  2)**Number of Games Played by Each Team**
+ 
+ ![Image](img/teams.jpg)
  
  ## Modeling
  
