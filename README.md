@@ -141,4 +141,15 @@ Here mid is not needed
  
 **So by applying all these algorithms to the given data set.All these algorithms contains some Hyperparameters which need to initialized of some values and they can be any values and these values influence our Model performance (OVER-FIT OR BEST-FIT OR UNDER-FIT). so we need find best Hyperparmeters and they are found using GRIDSEARCH**
 
+## Evaluation
+
+
+|__MODEL__|__Hyperparameters__|__Train Error(MAE)__|__Test Error(MAE)__|
+|-|-|-|-|
+|__LINEAR Regression__|__No hyperparameter__|__12.778862__|__12.435136__|
+|__Ridge Regression__|__'alpha': 1000__|__12.840386__|__12.203508__|
+|__Lasso Regression__|__'alpha': 5__|__13.406570__|__12.826956__|
+|__Decision Tree__|__'max_depth: 5 'min_samples_split': 10__|__9.528501__|__12.826956__|
+|__Random Forest	Regressor__|__'estimators': 10 'maxdepth': 2__|__23.194103__|__26.949964__|
+|__Gradient Boost Decision Trees Regressor__|__'estimators': 5 'maxdepth': 5__|__3.506031__|__29.701944__|
  
