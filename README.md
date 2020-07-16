@@ -108,11 +108,11 @@ Here mid is not needed
  
  1)**Number of Games Played in Each Venue**
  
- ![Image](img/games.jpg)
+ ![Image](img/games.png)
  
  2)**Number of Games Played by Each Team**
  
- ![Image](img/teams.jpg) 
+ ![Image](img/teams.png) 
  
  
  ## Modeling
