@@ -1,4 +1,4 @@
-# Predictior
+# Predictor
 
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Numpy](https://img.shields.io/badge/Library-Numpy-red.svg) ![Pandas](https://img.shields.io/badge/Library-Pandas-yellow.svg) ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-blue.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-pink.svg) ![Flask](https://img.shields.io/badge/Library-Flask-orange.svg)
 
